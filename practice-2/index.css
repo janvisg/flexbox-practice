@@ -6,7 +6,9 @@ body{
     display:flex;
     flex-direction: row;
     padding: 10px;
-    gap:5px;
+    /*justify-content: space-around;*/
+    gap: 8px;
+    
 }
 div{
     background-color: peachpuff;
@@ -16,7 +18,7 @@ div{
     text-align: center;
     color: black;
     height: 20px;
-    width: 40px;
+    width: 50px;
     
     flex: 1 1 auto;
     
